@@ -1,0 +1,17 @@
+.container {
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  height: 300px;
+  position: relative;
+  display: flex; }
+  .container .container-item {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    z-index: 1; }
+    .container .container-item img {
+      width: 100%; }
+  .container .show {
+    z-index: 2;
+    opacity: 1; }
